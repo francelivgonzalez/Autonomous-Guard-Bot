@@ -1,60 +1,72 @@
 # Autonomous-Guard-Bot
-PERSONAL PROJECT: An autonomous mobile robot designed for patrol and monitoring tasks using onboard sensing, navigation logic, and real-time environmental awareness.
+PERSONAL PROJECT: An Arduino and Raspberry Pi-based security robot that combines adaptive navigation, facial recognition, remote monitoring, WebRTC streaming, and modular automation logic for mobile surveillance applications.
 
 ## Overview
-This project is an autonomous guard robot designed to navigate an environment, monitor surroundings, and respond to detected conditions through sensing and control logic. The goal was to explore how robotics systems can combine mobility, perception, and decision-making for basic patrol-style applications.
+This project is an Arduino-based security and surveillance robot designed to combine autonomous navigation, remote monitoring, and interactive response behaviors. The system integrates an Arduino UNO R3, a Raspberry Pi, and a multi-sensor array to support motion awareness, facial recognition, and threat-triggered actions.
 
-The project highlights concepts in autonomous navigation, obstacle awareness, and robotic monitoring.
+The platform is also being designed with a 3D-printed chassis, a servo-mounted camera turret, and real-time video/audio streaming for remote access from a phone.
 
 ## Objective
 This project was developed to:
-- build a mobile robot capable of autonomous movement
-- detect obstacles and environmental changes
-- create patrol or monitoring logic
-- integrate sensors, control systems, and decision-making
-- demonstrate practical robotics system design
+- build a mobile security and surveillance robot
+- combine embedded control with higher-level vision processing
+- support adaptive navigation using multiple sensors
+- enable facial recognition and event-based responses
+- allow remote monitoring and communication even when off-site
 
-## Features
-- autonomous navigation
-- obstacle detection and avoidance
-- patrol path behavior
-- monitoring and environment awareness
-- modular robotics architecture
+## System Features
+- Arduino UNO R3 + Raspberry Pi integration
+- ultrasonic and IR-based sensing
+- HD camera for visual monitoring
+- facial recognition pipeline
+- threat-triggered motion behavior
+- upright reaction when an unfamiliar face is detected
+- WebRTC video and audio streaming
+- two-way communication from a phone
+- modular automation logic for alerts and data relay
 
-## Components and Technologies
-- mobile robot platform
-- microcontroller or embedded compute system
-- distance or proximity sensors
-- camera or monitoring sensor suite
-- motor drivers and power system
-- control software
+## Hardware and Tools
+- Arduino UNO R3
+- Raspberry Pi
+- ultrasonic sensors
+- IR sensors
+- HD camera
+- servo-mounted camera turret
+- 3D-printed chassis
+- C/C++
+- Python
 
 ## Skills Demonstrated
-- Robotics integration
-- Sensor fusion
-- Autonomous behavior design
-- Embedded systems
-- Control logic development
-- System-level debugging
+- embedded systems integration
+- computer vision
+- robotics control
+- 3D printing and mechanical prototyping
+- real-time communication systems
+- modular automation logic
+- technical documentation
 
-## How It Works
-1. The robot moves through a defined area or patrol route.
-2. Sensors monitor for obstacles or environmental triggers.
-3. The system adjusts movement decisions in real time.
-4. Monitoring outputs can be logged, displayed, or used to trigger responses.
+## System Workflow
+1. The robot navigates using onboard sensor data.
+2. The camera captures live visual input for monitoring and recognition.
+3. The Raspberry Pi processes higher-level tasks such as facial recognition and streaming.
+4. The Arduino manages lower-level sensing and actuator control.
+5. If an unfamiliar face is detected, the robot triggers programmed motion and alert behavior.
+6. Video and audio can be accessed remotely through a phone connection.
 
 ## Repository Contents
-- control software
-- navigation logic
-- sensor integration code
-- system diagrams
-- testing notes and demo materials
+- embedded control code
+- vision and automation scripts
+- chassis and turret design notes
+- sensor integration documentation
+- streaming setup notes
+- testing and demo records
 
 ## Future Improvements
-- add SLAM or mapping
-- include remote camera streaming
-- enable event logging and alerts
-- improve path planning and localization
+- improve recognition reliability in changing lighting
+- add event logging and alert history
+- refine remote control and monitoring interface
+- expand navigation autonomy and patrol behaviors
 
 ## Author
 Franceli Gonzalez
+Texas State University | Personal Project
