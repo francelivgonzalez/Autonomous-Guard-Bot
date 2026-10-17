@@ -1,5 +1,5 @@
 # Autonomous-Guard-Bot
-PERSONAL PROJECT: An Arduino and Raspberry Pi-based security robot that combines adaptive navigation, facial recognition, remote monitoring, WebRTC streaming, and modular automation logic for mobile surveillance applications.
+PERSONAL PROJECT: An Arduino Q-based security robot that combines adaptive navigation, facial recognition, remote monitoring, WebRTC streaming, and modular automation logic for mobile surveillance applications.
 
 ## Overview
 This project is an Arduino-based security and surveillance robot designed to combine autonomous navigation, remote monitoring, and interactive response behaviors. The system integrates an Arduino UNO R3, a Raspberry Pi, and a multi-sensor array to support motion awareness, facial recognition, and threat-triggered actions.
@@ -15,7 +15,7 @@ This project was developed to:
 - allow remote monitoring and communication even when off-site
 
 ## System Features
-- Arduino UNO R3 + Raspberry Pi integration
+- Arduino Q
 - ultrasonic and IR-based sensing
 - HD camera for visual monitoring
 - facial recognition pipeline
@@ -26,8 +26,7 @@ This project was developed to:
 - modular automation logic for alerts and data relay
 
 ## Hardware and Tools
-- Arduino UNO R3
-- Raspberry Pi
+- Arduino Q
 - ultrasonic sensors
 - IR sensors
 - HD camera
